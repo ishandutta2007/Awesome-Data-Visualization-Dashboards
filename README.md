@@ -42,47 +42,15 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Tableau**  
-
-  The visual analytics benchmark. Drag-and-drop dashboarding with deep chart customization, Tableau Pulse for AI-driven metrics insights, and Tableau Cloud for managed hosting. **The gold standard for visual exploration**—but licensing is expensive and governance features sit behind premium tiers.
-
-
-
-- **Microsoft Power BI**  
-
-  Microsoft's business analytics platform integrated with Fabric. Features **Power BI Desktop** for authoring, **Copilot AI** assistance, and **Direct Lake mode** for querying OneLake without import. **The most widely deployed BI tool** with deep Microsoft ecosystem integration and a generous free desktop tier.
-
-
-
-- **Looker (Google Cloud)**  
-
-  Code-based semantic modeling with **LookML**. Git integration, embedded analytics, and API-driven customization. **The developer-friendly semantic layer**—but requires LookML expertise and sits at enterprise price points.
-
-
-
-- **Qlik Sense**  
-
-  Associative analytics engine that finds relationships across all data without predefined queries. Self-service visualization, guided analytics, and embedded analytics with open APIs.
-
-
-
-- **Domo**  
-
-  Cloud-native BI and data product platform with **1,000+ connectors**. Magic ETL for transformation and AI-driven workflows. **The most end-to-end platform**—but pricing scales steeply.
-
-
-
-- **Sisense**  
-
-  BI platform focused on **embedded analytics**. ElastiCube for in-memory blending and AI-powered predictive analytics. **The embedded choice** for product teams.
-
-
-
-- **Google Looker Studio**  
-
-  Google's free BI platform (formerly Data Studio). 200+ connectors, real-time collaboration, and Workspace integration. **The most accessible free BI tool**—but limited governance and performance at scale.
+| Product | Company / Parent | Company Size (Valuation / Market Cap / Revenue) | Starting Price | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Power BI** | Microsoft | ~$3.1T Market Cap (~$245B+ Annual Revenue) | **$14/user/month** (Power BI Pro, billed annually) | **Free Desktop Edition & Personal Cloud Workspace**: Free authoring via Power BI Desktop, but report sharing and team collaboration are blocked without paid Pro/Premium or capacity license | Microsoft's enterprise business analytics platform integrated with Fabric, featuring Copilot AI assistance and Direct Lake querying. |
+| **Google Looker Studio** | Alphabet (Google) | ~$2.1T Market Cap (~$350B+ Annual Revenue) | **$0** (Looker Studio standard); **$9/user/project/month** (Looker Studio Pro) | **100% Free Forever**: Unlimited reports, sharing, and standard connectors (Google Analytics, BigQuery sandbox, Sheets). Pro tier adds team workspaces and asset management with a 30-day free trial | Google's accessible cloud BI and reporting tool with real-time collaboration and seamless Google Workspace integration. |
+| **Looker (Google Cloud Core)** | Alphabet (Google) | ~$2.1T Market Cap (~$350B+ Annual Revenue) | **~$60,000/year** (~$5,000/month base platform fee for Standard edition) | **30-day Free Trial**: No permanent free-forever tier; 30-day cloud trial instance available with Google Cloud trial credits for evaluation | Code-based enterprise semantic modeling platform powered by LookML, Git-integrated version control, and robust embedded analytics. |
+| **Tableau** | Salesforce | ~$280B Market Cap (~$38B+ Annual Revenue; acquired for $15.7B) | **$15/user/month** (Viewer, billed annually); **$75/user/month** (Creator) | **14-day Free Trial** (Tableau Cloud/Desktop Creator); **Tableau Public** is free-forever but all data/worksheets are 100% public (up to 15M rows, 10GB storage); **Desktop Free Edition** restricts sharing/publishing | The visual analytics benchmark featuring drag-and-drop dashboarding, Tableau Pulse for AI insights, and deep chart customization. |
+| **Qlik Sense** | Qlik (Thoma Bravo / ADIA) | ~$10B Valuation (~$1B+ Annual Revenue) | **$300/month** (Starter tier for up to 10 users & 10 GB data, billed annually) | **30-day Free Trial**: No permanent free-forever tier; 30-day trial environment of Qlik Cloud with full Associative Engine access and capped storage | Associative analytics engine discovering relationships across enterprise data without predefined queries, plus self-service and embedded analytics. |
+| **Sisense** | Sisense | ~$1.1B Valuation (~$140M–$150M ARR) | **~$10,000/year** (~$833/month starting base deployment) | **14-day Free Trial**: No permanent free-forever tier; 14-day sandbox/test drive environment with sample data connectors and core dashboard capabilities | Analytics platform specialized for embedded analytics and customer-facing products with ElastiCube in-memory data blending and predictive AI. |
+| **Domo** | Domo, Inc. | ~$150M Market Cap (~$319M Annual Revenue; agreed $400M platform acquisition by Progress Software) | **~$30,000/year** (~$2,500/month credit-based consumption tier with unlimited seats) | **30-day Free Trial**: No permanent free-forever tier; 30-day enterprise evaluation trial with unlimited user seats, 1,000+ connectors, and Magic ETL | Cloud-native BI and data platform offering 1,000+ data connectors, Magic ETL data transformation pipelines, and AI-driven workflow apps. |
 
 
 
