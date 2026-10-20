@@ -51,6 +51,7 @@
   </defs>
 
   <style>
+    <![CDATA[
     .title-text {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
@@ -71,7 +72,7 @@
       letter-spacing: 0.5px;
     }
 
-    /* Ambient pulse & dynamic flows */
+    /* Ambient pulse and dynamic flows */
     @keyframes pulseGlow {
       0%, 100% { opacity: 0.3; transform: scale(1); }
       50% { opacity: 0.65; transform: scale(1.04); }
@@ -107,6 +108,7 @@
     .float-card-2 {
       animation: floatPill 6s ease-in-out infinite 1s;
     }
+    ]]>
   </style>
 
   <!-- Canvas Background -->
@@ -118,7 +120,7 @@
   <circle cx="1050" cy="180" r="180" fill="#818cf8" opacity="0.14" filter="url(#glow)" class="ambient-orb" />
   <circle cx="650" cy="300" r="160" fill="#c084fc" opacity="0.1" filter="url(#glow)" class="ambient-orb" />
 
-  <!-- DYNAMIC BACKGROUND VISUALIZATIONS (Right Side & Lower Third) -->
+  <!-- DYNAMIC BACKGROUND VISUALIZATIONS (Right Side and Lower Third) -->
   <g opacity="0.85" class="chart-wave">
     <!-- Area Chart Background -->
     <path d="M 680 270 Q 750 200, 830 220 T 980 160 T 1140 180 L 1140 280 L 680 280 Z" fill="url(#area-grad)" />
@@ -154,7 +156,7 @@
     <text x="64" y="40" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">+42.8% MoM</text>
   </g>
 
-  <!-- FOREGROUND CONTENT: Header, Subtitle & Badges (Clean, Crisp, High Contrast) -->
+  <!-- FOREGROUND CONTENT: Header, Subtitle and Badges (Clean, Crisp, High Contrast) -->
   <g transform="translate(70, 0)">
     <!-- Top Category Tag -->
     <g transform="translate(0, 52)">
@@ -168,7 +170,7 @@
       Awesome <tspan fill="url(#primary-grad)">Data Visualization</tspan>
     </text>
     <text x="0" y="184" class="title-text">
-      &amp; Dashboards 📊
+      &amp; Dashboards &#128202;
     </text>
 
     <!-- Subtitle -->
@@ -180,19 +182,19 @@
     <g transform="translate(0, 260)">
       <!-- Pill 1 -->
       <rect x="0" y="0" width="165" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-      <text x="16" y="21" fill="#cbd5e1" class="badge-pill-text">🚀 Enterprise BI</text>
+      <text x="16" y="21" fill="#cbd5e1" class="badge-pill-text">&#128640; Enterprise BI</text>
 
       <!-- Pill 2 -->
       <rect x="177" y="0" width="185" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-      <text x="193" y="21" fill="#cbd5e1" class="badge-pill-text">📈 Observability &amp; APM</text>
+      <text x="193" y="21" fill="#cbd5e1" class="badge-pill-text">&#128200; Observability &amp; APM</text>
 
       <!-- Pill 3 -->
       <rect x="374" y="0" width="165" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-      <text x="390" y="21" fill="#cbd5e1" class="badge-pill-text">⚡ Open Source</text>
+      <text x="390" y="21" fill="#cbd5e1" class="badge-pill-text">&#9889; Open Source</text>
 
       <!-- Pill 4 -->
       <rect x="551" y="0" width="165" height="32" rx="16" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-      <text x="567" y="21" fill="#cbd5e1" class="badge-pill-text">🧩 Embedded Viz</text>
+      <text x="567" y="21" fill="#cbd5e1" class="badge-pill-text">&#129513; Embedded Viz</text>
     </g>
   </g>
 </svg>
